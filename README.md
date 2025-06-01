@@ -1,7 +1,9 @@
-![ee](https://github.com/user-attachments/assets/6d1ccc49-5f75-4591-b993-4a243adaf724)
+![ee](https://i.ibb.co/ynyhF0Hq/srb.png)
 
-# srbfetch
+# srbfetch 1.3.1
 Fast, C-Written, non-bloated alternative for neofetch and fastfetch. Work in progress!
+## Whats new?
+Added Unknown logo
 ## How to install
 Run vars.sh script.
 ```
@@ -19,7 +21,7 @@ cp srbfetch /usr/bin
 - [ ] Add more flags
     - [ ] BSD
     - [ ] Illumos
-    - [ ] Unknown
+    - [x] Unknown
     - [ ] Changing flag with a... flag
     - [ ] Distros
         - [ ] Arch
@@ -37,3 +39,6 @@ cp srbfetch /usr/bin
    - [ ] Terminal emulator
    - 
     
+## Fetchs
+### Unsupported
+![ee](https://i.ibb.co/JWXjQrB4/uns.png)
