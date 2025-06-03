@@ -2,7 +2,7 @@
 #include "./vars.h"
 #include <string.h>
 // 15
-#define VERSION "1.3.1"
+#define VERSION "1.3.2"
 #define RESET "\033[0m"
 #define BLACK "\033[30m" 
 #define YELLOW "\033[33m" 
