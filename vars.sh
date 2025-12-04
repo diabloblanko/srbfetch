@@ -4,6 +4,10 @@ get_kernel=$(uname -s)
 get_kernel_ver=$(uname -r)
 get_shell=$(echo $SHELL)
 get_hostname=$(cat /etc/hostname)
+if command -v hostname > /dev/null 2>&1; then
+	get_hostname=$(hostname)
+else
+	get_hostname=$(sysctl -n kern.hostname) # for openbsd
 file="./vars.h"
 
 
