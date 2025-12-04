@@ -2,7 +2,7 @@
 #include "./vars.h"
 #include <string.h>
 // 15
-#define VERSION "1.3.2"
+#define VERSION "1.4"
 #define RESET "\033[0m"
 #define BLACK "\033[30m" 
 #define YELLOW "\033[33m" 
@@ -39,7 +39,16 @@ void srb_unknown() {
                         WHITE "  # " RESET "\n"
             );
 }
-void srb_openbsd();
+void srb_openbsd() {
+        printf(
+                "       _____"  RED  "     D"  RESET  BLUE  "R"  RESET WHITE "B" RESET "Fetch " VERSION "\n"
+                "     \\-     -/"  "   OS " SEPARATOR "SRB_BSD" "\n"
+                "  \\_/         \\" "  Kernel " SEPARATOR get_kernel " " get_kernel_ver "\n"
+                " |         O O |" " Shell " SEPARATOR get_shell "\n"
+                " |_  <   )  3 )" "  Hostname " SEPARATOR get_hostname "\n"
+                " /  \\         /\n"
+                "    /-_____-\\\n");
+}
 void srb_netbsd() {
       printf(
           "*" BGRD RED "###### " RESET RED " S" RESET BLUE "R" RESET WHITE "B" RESET "Fetch " VERSION "\n"

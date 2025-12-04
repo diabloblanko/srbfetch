@@ -1,7 +1,7 @@
 #### SRBFetch on Linux↓
 ![ee](https://i.ibb.co/ynyhF0Hq/srb.png)
 
-# srbfetch 1.3.2
+# srbfetch 1.4
 Fast, C-Written, non-bloated alternative for neofetch and fastfetch. Work in progress!
 ## Whats new?
 Added Unknown logo
@@ -23,9 +23,8 @@ cp srbfetch /usr/bin
     - [ ] Illumos
     - [x] Unknown
     - [ ] Changing logo with flag
-    - [ ] Distros
-        - [ ] OpenBSD
-        - [ ] FreeBSD
+    - [x] BSD Distros
+        - [x] OpenBSD
         - [x] NetBSD
 - [ ] Add more system information
    - [ ] RAM
@@ -40,4 +39,4 @@ cp srbfetch /usr/bin
 ### Unsupported
 ![ee](https://i.ibb.co/JWXjQrB4/uns.png)
 ### NetBSD
-![ee](https://i.ibb.co/gFfYDSVn/netfetch.png)
+![ee](https://camo.githubusercontent.com/8717518fb46044c070e60c1eb1da85d6012d151fa4e9ac88640ca19feda4e3a9/68747470733a2f2f692e6962622e636f2f674666594453566e2f6e657466657463682e706e67)
