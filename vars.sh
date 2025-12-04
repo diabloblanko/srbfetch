@@ -8,6 +8,7 @@ if command -v hostname > /dev/null 2>&1; then
 	get_hostname=$(hostname)
 else
 	get_hostname=$(sysctl -n kern.hostname) # for openbsd
+fi
 file="./vars.h"
 
 
