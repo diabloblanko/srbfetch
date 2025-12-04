@@ -3,7 +3,7 @@
 get_kernel=$(uname -s)
 get_kernel_ver=$(uname -r)
 get_shell=$(echo $SHELL)
-get_hostname=$(cat /etc/hostname)
+#get_hostname=$(cat /etc/hostname)
 if command -v hostname > /dev/null 2>&1; then
 	get_hostname=$(hostname)
 else
