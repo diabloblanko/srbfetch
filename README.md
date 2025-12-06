@@ -1,3 +1,5 @@
+# Im moving to codeberg.org. New versions of my software will be published to codeberg, not github.
+## <a href="https://codeberg.org/diabloblanco">My account on CodeBerg.</a>
 #### SRBFetch on Linux↓
 ![ee](https://i.ibb.co/ynyhF0Hq/srb.png)
 
