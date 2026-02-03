@@ -5,7 +5,16 @@
 Fast, C-Written, non-bloated alternative for neofetch and fastfetch. Work in progress!
 ## Whats new?
 Added Unknown logo
-## How to install
+## Installation guide
+### Using mph
+```
+mph net https://codeberg.org/diabloblanco/srbfetch
+```
+You can also use the shell installer
+```
+mph net sh https://codeberg.org/diabloblanco/srbfetch
+```
+### From sources
 Run vars.sh script.
 ```
 sh vars.sh
